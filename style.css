@@ -5,7 +5,8 @@
     border: 0;
     box-sizing: border-box;
     text-decoration: none;
-     font-family:'Henny Penny', cursive;
+    font-family:'Henny Penny', cursive;
+    
 }
 
 body{
@@ -40,7 +41,7 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
-    background-color: rgb(172, 228, 228);      
+    /* background-color: rgb(172, 228, 228);       */
     width: 100%; 
     
 }
@@ -62,9 +63,22 @@ a {
     text-decoration: none;
     font-size: 1em;
     margin: 2px;
+
     
+    border: none;
+    color: black;
+    transition: 0.3s;
+       
     
+}
+
+.page1_button:hover {
+    background-color: #54a6b1;
     
+  }
+
+a:hover {
+    color: white;
 }
 
 .picture{
@@ -83,24 +97,172 @@ a {
     background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
     /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/917/052/original/a-set-of-bright-colorful-cupcakes-in-the-style-of-flat-doodles-seamless-pattern-wallpaper-packaging-paper-design-fabrics-vector.jpg);  
     /* background-image: url(https://media.istockphoto.com/id/618615176/vector/cute-seamless-pattern-with-sweets.jpg?s=612x612&w=0&k=20&c=IQ6-NIavmB663Za3MjIwNZtlv6-V8qU4dIbAfNU9HYE=); */
-    background-color: rgb(157, 212, 196); 
+    /* background-color: rgb(157, 212, 196);  */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: space-around;
+    padding: 30px;
       
 }
 
 .business_name {
-    font-size: 3em;
+    font-size: 2.5em;
     color: rgb(66, 117, 133);
-    opacity: 1;
+    text-shadow: 2px 2px 2px #000000;
+
     
+    
+    transition: transform .2s; /* Animation */
+    
+    margin: 0 auto;    
     
 }
 
+.business_name:hover {
+    transform: scale(1.2); 
+  }
+
 .business_description {
     font-size: 2em;
-    color: rgb(32, 31, 30);
+    color: rgb(155, 70, 103);
+    text-shadow: 2px 2px 2px #000000;
+    
+
+}
+
+
+
+/* css breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 280px) {
+     .business_name {
+        font-size: 2em; 
+    }
+
+    .business_description {
+        font-size: 1.5em;
+    }     
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+ 
+
+ .links {
+     height: 10%;
+     background-image: none;
+ }
+  
+ .all_buttons_page1 {
+    display: flex;
+    flex-direction: row;
+     align-items: flex-start;
+    justify-items: center; 
+    justify-content: center; 
+    gap: 15px;   
+  }
+  
+  
+  
+ .page1_button {
+     width: 20%;
+     font-size: 2em;
+ }
+
+ .picture {
+     height: 600px;
+     width: 600px;
+     
+ }
+ .header {
+     
+     width: 100%;
+     margin-bottom: 60px;
+     background-image: none;
+ }
+
+
+ .business_name {
+    font-size: 4em;
+}
+
+
+.business_description {
+   font-size: 3em;
+}
+
+.header {
+    background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
+    
+
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .links {
+        height: 10%;
+    }
+
+    .all_buttons_page1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-items: right; 
+        justify-content: flex-end;
+        gap: 20px;
+        font-size: 1.5em;      
+      } 
+      
+     .page1_button {
+         width: 10%;
+         font-size: 1em;
+     }
+
+     .picture {
+        height: 400px;
+        width: 400px;
+        
+    }
+
+     .business_name {
+         font-size: 4em;
+     }
+
+     
+     .business_description {
+        font-size: 3em;
+     }
+
+     .header {
+         background-image: none;
+     }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .picture {
+        height: 590px;
+        width: 590px;
+        
+    }
+
+    .page1_button {
+        
+        font-size: 1.2em;
+    }
+
 
 }
