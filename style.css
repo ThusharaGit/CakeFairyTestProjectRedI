@@ -1,268 +1,438 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Archivo:ital,wght@1,100&family=Barlow+Semi+Condensed:wght@300&family=Henny+Penny&family=Josefin+Sans&family=Open+Sans&family=Shantell+Sans&family=Stick+No+Bills&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Archivo:ital,wght@1,100&family=Barlow+Semi+Condensed:wght@300&family=Henny+Penny&family=Josefin+Sans&family=Open+Sans&family=Shantell+Sans&family=Stick+No+Bills&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family:'Henny Penny', cursive;
-    
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Henny Penny", cursive;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    justify-items: center;
-    height: 100vh;
-    width: 100vw;
-    
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  height: 100vh;
+  width: 100vw;
 }
- 
+
 a {
-    color: black;
-    text-decoration: none;
-   
+  color: black;
+  text-decoration: none;
 }
 
+/* page1................................................... */
 
 .sections_page1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
 }
-.links{
-    height: 25%;
-    /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/917/052/original/a-set-of-bright-colorful-cupcakes-in-the-style-of-flat-doodles-seamless-pattern-wallpaper-packaging-paper-design-fabrics-vector.jpg);*/
-    background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    /* background-color: rgb(172, 228, 228);       */
-    width: 100%; 
-    
+.links {
+  height: 25%;
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/917/052/original/a-set-of-bright-colorful-cupcakes-in-the-style-of-flat-doodles-seamless-pattern-wallpaper-packaging-paper-design-fabrics-vector.jpg);*/
+  background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: rgb(172, 228, 228);       */
+  width: 100%;
 }
 .all_buttons_page1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    justify-items: center;
-    height: 100%;
-    width: 100%;
-    margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 15px;
 }
 
 .page1_button {
-    width: 30%;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    text-decoration: none;
-    font-size: 1em;
-    margin: 2px;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 2px;
 
-    
-    border: none;
-    color: black;
-    transition: 0.3s;
-       
-    
+  border: none;
+  color: black;
+  transition: 0.3s;
 }
 
 .page1_button:hover {
-    background-color: #54a6b1;
-    
-  }
+  background-color: #54a6b1;
+}
 
 a:hover {
-    color: white;
+  color: white;
 }
 
-.picture{
-    height: 50%;
-     background-image: url(https://media.istockphoto.com/id/1218734468/vector/woman-decorates-a-cake.jpg?s=612x612&w=0&k=20&c=0Spuv7UvRNlDGZIVizUTYF55rn884ecYHjCctq074zE=);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    width: 100%;
-    
+.picture {
+  height: 50%;
+  background-image: url(https://media.istockphoto.com/id/1218734468/vector/woman-decorates-a-cake.jpg?s=612x612&w=0&k=20&c=0Spuv7UvRNlDGZIVizUTYF55rn884ecYHjCctq074zE=);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
-.header{
-    height: 30%;
-    width: 100%;
-    background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
-    /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/917/052/original/a-set-of-bright-colorful-cupcakes-in-the-style-of-flat-doodles-seamless-pattern-wallpaper-packaging-paper-design-fabrics-vector.jpg);  
+.header {
+  height: 30%;
+  width: 100%;
+  background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/917/052/original/a-set-of-bright-colorful-cupcakes-in-the-style-of-flat-doodles-seamless-pattern-wallpaper-packaging-paper-design-fabrics-vector.jpg);  
     /* background-image: url(https://media.istockphoto.com/id/618615176/vector/cute-seamless-pattern-with-sweets.jpg?s=612x612&w=0&k=20&c=IQ6-NIavmB663Za3MjIwNZtlv6-V8qU4dIbAfNU9HYE=); */
-    /* background-color: rgb(157, 212, 196);  */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: space-around;
-    padding: 30px;
-      
+  /* background-color: rgb(157, 212, 196);  */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+  padding: 30px;
 }
 
 .business_name {
-    font-size: 2.5em;
-    color: rgb(66, 117, 133);
-    text-shadow: 2px 2px 2px #000000;
-
-    
-    
-    transition: transform .2s; /* Animation */
-    
-    margin: 0 auto;    
-    
+  font-size: 2.5em;
+  color: rgb(66, 117, 133);
+  text-shadow: 2px 2px 2px #000000;
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
 }
 
 .business_name:hover {
-    transform: scale(1.2); 
-  }
-
-.business_description {
-    font-size: 2em;
-    color: rgb(155, 70, 103);
-    text-shadow: 2px 2px 2px #000000;
-    
-
+  transform: scale(1.2);
 }
 
+.business_description {
+  font-size: 2em;
+  color: rgb(155, 70, 103);
+  text-shadow: 2px 2px 2px #000000;
+}
+/* common  */
 
+.normal_pages {
+  background-image: none;
+  background-color: rgb(248, 232, 239);
+  height: 20%;
+}
+/* page2,home................................................... */
+
+.page2_hedding {
+  color: rgb(233, 98, 132);
+  margin-top: 30px;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px #000000;
+}
+.cards {
+  background-color: #54a6b1;
+  height: 270px;
+  width: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  justify-items: center;
+  margin: 50px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  transition: transform 0.2s; /* Animation */
+}
+
+.cards:hover {
+  transform: scale(1.2);
+}
+
+.product_description {
+  color: white;
+  font-size: 2em;
+  text-shadow: 3px 3px 3px #000000;
+}
+.price {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.order {
+  width: 100%;
+}
+
+#cup {
+  background-image: url(https://i0.wp.com/mimijuskitchen.com/wp-content/uploads/2021/01/DSCF2048-scaled.jpg?w=1500&ssl=1);
+}
+#wedding {
+  background-image: url(https://www.deliciaecakes.com/static/a974487523b17b48f4eef57ccbb1a58c/e30b5/w-448.webp);
+}
+#birthday {
+  background-image: url(https://www.deliciaecakes.com/static/18179b8d87183ac3c5492573f7b577a0/1fb14/3d-2584.webp);
+}
+#rainbow {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/56315ccee4b068a9afd70559/1564008912684-RF1OJP9E1L550JNMV4SX/How+to+make+a+rainbow+cake+with+layers+of+eggless+chocolate+cake+and+peanut+butter+filling);
+}
+#cheese {
+  background-image: url(https://images.immediate.co.uk/production/volatile/sites/30/2020/08/triple-layered-berry-cheesecake-ec94f12.jpg?quality=90&webp=true&resize=500,454);
+}
+#fruit {
+  background-image: url(https://www.nonnabox.com/wp-content/uploads/2022/10/zelten_fruitcake_recipe.jpg);
+}
+#ribbon {
+  background-image: url(https://anmcupcakes.com/wp-content/uploads/2020/12/Ribbon-Cake-1-scaled.jpg);
+}
+#chocolate {
+  background-image: url(https://mygiftstory.in/wp-content/uploads/2022/12/Delicious-Heart-Shaped-Chocolate-Cake.webp);
+}
+
+#invisible {
+   background-image: url(https://st3.depositphotos.com/7335562/15941/i/600/depositphotos_159416536-stock-photo-watercolor-pink-heart.jpg); 
+  /* background-image: url(https://t4.ftcdn.net/jpg/02/45/12/41/360_F_245124152_d7WKC71yhJgu0pxoQj2c1PoN6uJ3TAhx.jpg); */
+  border-radius: 50%;
+  display: none;
+  
+}
+#invisible:hover {
+  transform: none;
+  border-radius: 50%;
+  
+}
 
 /* css breakpoints */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 280px) {
-     .business_name {
-        font-size: 2em; 
-    }
+  /* page1................................................... */
+  .business_name {
+    font-size: 2em;
+  }
 
-    .business_description {
-        font-size: 1.5em;
-    }     
-
+  .business_description {
+    font-size: 1.5em;
+  }
+  /* page2,home................................................... */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  /* page1................................................... */
 
- 
+  .links {
+    height: 10%;
+    background-image: none;
+  }
 
- .links {
-     height: 10%;
-     background-image: none;
- }
-  
- .all_buttons_page1 {
+  .all_buttons_page1 {
     display: flex;
     flex-direction: row;
-     align-items: flex-start;
-    justify-items: center; 
-    justify-content: center; 
-    gap: 15px;   
+    align-items: flex-start;
+    justify-items: center;
+    justify-content: center;
+    gap: 15px;
   }
-  
-  
-  
- .page1_button {
-     width: 20%;
-     font-size: 2em;
- }
 
- .picture {
-     height: 600px;
-     width: 600px;
-     
- }
- .header {
-     
-     width: 100%;
-     margin-bottom: 60px;
-     background-image: none;
- }
+  .page1_button {
+    width: 20%;
+    font-size: 2em;
+  }
 
+  .picture {
+    height: 600px;
+    width: 600px;
+  }
+  .header {
+    width: 100%;
+    margin-bottom: 60px;
+    background-image: none;
+  }
 
- .business_name {
+  .business_name {
     font-size: 4em;
-}
+  }
 
+  .business_description {
+    font-size: 3em;
+  }
 
-.business_description {
-   font-size: 3em;
-}
-
-.header {
+  .header {
     background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
-    
+  }
 
-}
+  /* common */
+  .normal_pages {
+    background-color: rgb(255, 255, 255);
+  }
+  /* page2,home................................................... */
 
+  .grid_view {
+    padding: 20px;
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+  }
+
+  #cheese {
+    grid-area: 3/3;
+  }
+  #fruit {
+    grid-area: 3/2;
+  }
+  #ribbon {
+    grid-area: 3/1;
+  }
+  #chocolate {
+    grid-area: 2/3;
+  }
+  #invisible {
+    display: block;
+  }
+
+  .cards {
+    height: 180px;
+    width: 220px;
+    margin: 10px;
+  }
+  .page2_hedding {
+    margin-top: none;
+    padding: none;
+    font-size: 3.5em;
+  }
+  .product_description {
+    font-size: 1.5em;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .links {
-        height: 10%;
-    }
+  /* page1................................................... */
+  .links {
+    height: 10%;
+  }
 
-    .all_buttons_page1 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-items: right; 
-        justify-content: flex-end;
-        gap: 20px;
-        font-size: 1.5em;      
-      } 
-      
-     .page1_button {
-         width: 10%;
-         font-size: 1em;
-     }
+  .all_buttons_page1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: right;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 1.5em;
+  }
 
-     .picture {
-        height: 400px;
-        width: 400px;
-        
-    }
+  .page1_button {
+    width: 10%;
+    font-size: 1em;
+  }
 
-     .business_name {
-         font-size: 4em;
-     }
+  .picture {
+    height: 400px;
+    width: 400px;
+  }
 
-     
-     .business_description {
-        font-size: 3em;
-     }
+  .business_name {
+    font-size: 4em;
+  }
 
-     .header {
-         background-image: none;
-     }
+  .business_description {
+    font-size: 3em;
+  }
+
+  .header {
+    background-image: none;
+  }
+
+  /* page2,home................................................... */
+
+ .page2_hedding {
+     position: absolute;
+     left: 50px;
+     top: -20px;
+ }
+
+  #invisible {
+    display: none;
+  }
+  .page2_hedding {
+    margin-top: none;
+    font-size: 2em;
+  }
+  .grid_view {
+    padding: none;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+  }
+  .cards {
+    margin: none;
+    height: auto;
+    width: auto;
+  }
+  #cup {
+    grid-area: 1/1/3/2;
+  }
+
+  #ribbon {
+    grid-area: 3/1/4/2;
+  }
+
+  #fruit {
+    grid-area: 1/2/2/3;
+  }
+
+  #wedding {
+    grid-area: 2/2/4/3;
+  }
+
+  #birthday {
+    grid-area: 1/3/3/4;
+  }
+
+  #cheese {
+    grid-area: 3/3/4/4;
+  }
+
+  #rainbow {
+    grid-area: 1/4/2/5;
+  }
+
+  #chocolate {
+    grid-area: 2/4/4/5;
+  }
+
+
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  /* page1................................................... */
 
-    .picture {
-        height: 590px;
-        width: 590px;
-        
-    }
+  .picture {
+    height: 590px;
+    width: 590px;
+  }
 
-    .page1_button {
-        
-        font-size: 1.2em;
-    }
+  .page1_button {
+    font-size: 1.2em;
+  }
+  /* page2,home................................................... */
+  .page2 {
+    font-size: 1.2em;
+  }
 
-
+  .grid_view {
+  }
 }
