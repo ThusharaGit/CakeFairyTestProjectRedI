@@ -1,71 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>services</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="page3">
-    <section class=" sections_page1 links normal_pages">
-        <div class="all_buttons_page1">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page3">
+    <section class="sections_page1 links normal_pages">
+      <div class="all_buttons_page1">
         <button class="page1_button"><a href="contact.html">Contact</a></button>
-        <button class="page1_button"><a href="products.html">Products</a></button>
+        <button class="page1_button">
+          <a href="products.html">Products</a>
+        </button>
         <button class="page1_button"><a href="about.html">About</a></button>
-        <button class="page1_button"> <a href="index.html">Home</a></button>
-        </div>
+        <button class="page1_button"><a href="index.html">Home</a></button>
+      </div>
     </section>
 
-    <h2 class="page3_hedding page2_hedding"> Payments & Delivery</h2>
-    <section class="page3_card register">
+    <h2 class="page2_hedding">Payments & Delivery</h2>
+    <div class="grid_big">
+      <section class="page3_card register">
         <h3>Register here</h3>
         <form>
-            <label for="name">Name :</label>
-            <input type="text" id="name" name="name"><br>
-            <label for="address">Address :</label>
-            <input type="text" id="address" name="address"><br>
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email"><br>
-            <label for="phone">Phone :</label>
-            <input type="number" id="phone" name="phone"><br>
-            <label for="password">Password :</label>
-            <input type="password" id="password" name="password"><br>
+          <label for="name">Name :</label>
+          <input type="text" id="name" name="name" /><br />
+          <label for="address">Address :</label>
+          <input type="text" id="address" name="address" /><br />
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" /><br />
+          <label for="phone">Phone :</label>
+          <input type="number" id="phone" name="phone" /><br />
+          <label for="password">Password :</label>
+          <input type="password" id="password" name="password" /><br />
         </form>
-    </section>
-    <section class="page3_card card_details">
+      </section>
+      <section class="page3_card card_details">
         <div class="card_image"></div>
         <div class="fill">
-            <form>
-                <label for="card_no">Card Number :</label>
-                <input type="number" id="card_no" name="card_no"><br>
-                <label for="name">Card Holder Name :</label>
-                <input type="text" id="card_name" name="card_name"><br>
-                <label for="card_expiry">Card Expiry Date :</label>
-                <input type="date" id="card_expiry" name="card_expiry"><br>
-            </form>
-            <h4>Your Payment :</h4>
-            <div class="payment_buttons">
-              <button class="btn">Confirm</button>
-              <button class="btn">Reject</button>
-            </div>
+          <form>
+            <label for="card_no">Card Number :</label>
+            <input type="number" id="card_no" name="card_no" /><br />
+            <label for="name">Card Holder Name :</label>
+            <input type="text" id="card_name" name="card_name" /><br />
+            <label for="card_expiry">Card Expiry Date :</label>
+            <input type="date" id="card_expiry" name="card_expiry" /><br />
+          </form>
+          <h4>Your Payment :</h4>
+          <div class="payment_buttons">
+            <button class="btn">Confirm</button>
+            <button class="btn">Reject</button>
+          </div>
+          <div class="card_page3" id="invisible-page3"></div>
         </div>
-    </section>
-    <section class="page3_card delivery">
-        <h3>
-            Delivery to the given address 
-        </h3>
-        
-         <form>
-            <input type="radio" id="yes" name="delivery" value="yes">
-            <label for="yes">Yes</label>
-            
-            <input type="radio" id="other" name="delivery" value="other">
-            <label for="other">Instore Pick Up</label>
-         </form>
-    </section>
-    
+      </section>
+      <section class="page3_card delivery">
+        <h3>Delivery to the given address</h3>
 
+        <form>
+          <input type="radio" id="yes" name="delivery" value="yes" />
+          <label for="yes">Yes</label>
 
-</body>
+          <input type="radio" id="other" name="delivery" value="other" />
+          <label for="other">Instore Pick Up</label>
+        </form>
+      </section>
+
+      <div class="big_image" id="big1"></div>
+      <div class="big_image" id="big2"></div>
+      <div class="big_image" id="big3"></div>
+
+    </div>
+  </body>
 </html>
