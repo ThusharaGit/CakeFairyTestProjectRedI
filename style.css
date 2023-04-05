@@ -93,9 +93,7 @@ a:hover {
   height: 30%;
   width: 100%;
   background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
-  /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/917/052/original/a-set-of-bright-colorful-cupcakes-in-the-style-of-flat-doodles-seamless-pattern-wallpaper-packaging-paper-design-fabrics-vector.jpg);  
-    /* background-image: url(https://media.istockphoto.com/id/618615176/vector/cute-seamless-pattern-with-sweets.jpg?s=612x612&w=0&k=20&c=IQ6-NIavmB663Za3MjIwNZtlv6-V8qU4dIbAfNU9HYE=); */
-  /* background-color: rgb(157, 212, 196);  */
+  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -295,6 +293,54 @@ form {
   color: #157380;
 }
 
+/* page4,about.............................................. */
+
+.page4_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.page4_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+  width: 100%;
+  background-color: #fdfbf3;
+  margin: 10px;
+  
+}
+.page4_pic {
+  background-color: #157380;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  
+}
+#fairy {
+  background-image: url(https://media.istockphoto.com/id/1152658696/photo/business-owner-with-her-staff-working-at-a-restaurant.jpg?s=612x612&w=0&k=20&c=C1KLG5JEFBqGMFWapWWyYHlhNj7p0qqErP6ovV-5ap0=);
+}
+
+#kitchen {
+  background-image: url(https://media.istockphoto.com/id/1390103334/photo/chefs-team-in-uniforms-prepare-to-bake-bread-and-pastry-in-stainless-kitchen.jpg?b=1&s=170667a&w=0&k=20&c=eU3REs0cLwF3-gORXpZHx3Q1KScQlfCcLeH5Nm3KPG4=);
+}
+
+#outlet {
+  background-image: url(https://mediahub.visitvictoria.com/sites/default/files/styles/flexslider_full/public/lookatmedam/131164l3.jpg?itok=ixUHFuJT);
+}
+.para {
+  color: #54a6b1;
+  margin: 10px;
+}
+
+
 /* css breakpoints */
 
 /* Extra small devices (phones, 600px and down) */
@@ -309,6 +355,7 @@ form {
   }
    /* page2,home................................................... */
    /* page3,services........................................................... */
+   /* page4,about.............................................. */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -408,16 +455,25 @@ form {
 
   .card_details {
     font-size: 1.7em;
+    background-color: rgb(252, 246, 239);
+    
   }
 
   .register {
     font-size: 1.7em;
+    background-color: rgb(252, 246, 239);
   }
 
   .delivery {
     font-size: 1.7em;
+    background-color: rgb(252, 246, 239);
   }
 
+  /* page4,about.............................................. */
+  .page4_card {
+    max-width: 80%;
+    font-size: 2em;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -532,8 +588,8 @@ form {
     
   } 
   .card_details {
-    height: auto;
-    width: auto;
+     height: auto;
+    width: auto; 
      background-color: #ecf6f8; 
     grid-area: 2/2/5/3;
   }
@@ -577,7 +633,31 @@ form {
     background-image: url(https://static.vecteezy.com/system/resources/previews/004/542/032/original/young-woman-sitting-on-floor-working-with-laptop-cartoon-style-illustration-isolated-on-white-background-vector.jpg);
   }
 
-
+  /* page4,about.............................................. */
+  
+  .page4_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .page4_card {
+    font-size: 1.2em; 
+    height: 100%;
+    width: 33%;
+    background-color: #f8f5f0;  
+    
+  }
+  .page4_pic {
+    height: 150px;
+    width: 150px;
+  }
+  .video_set {
+    display: none;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -598,6 +678,14 @@ form {
   }
 
   /* page3,services........................................................... */
-   
+  /* page4,about.............................................. */
+  .page4_card {
+    font-size: 1.5em;   
+    
+  }
+  .page4_pic {
+    height: 200px;
+    width: 200px;
+  }
 
 }
