@@ -6,7 +6,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Henny Penny", cursive;
-
 }
 
 body {
@@ -27,7 +26,6 @@ a {
 li {
   text-decoration: none;
   list-style: none;
-  
 }
 /* page1................................................... */
 
@@ -93,7 +91,7 @@ a:hover {
   height: 30%;
   width: 100%;
   background-image: url(https://www.iwantwallpaper.co.uk/images/sample-graham-brown-contour-cupcake-wallpaper-30-2-p10404-29443_medium.jpg);
-  
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,10 +167,10 @@ a:hover {
 .order {
   width: 100%;
 }
-.order:hover{
+.order:hover {
   background-color: #f36d7f;
 }
- 
+
 #cup {
   background-image: url(https://i0.wp.com/mimijuskitchen.com/wp-content/uploads/2021/01/DSCF2048-scaled.jpg?w=1500&ssl=1);
 }
@@ -199,16 +197,14 @@ a:hover {
 }
 
 #invisible {
-   background-image: url(https://st3.depositphotos.com/7335562/15941/i/600/depositphotos_159416536-stock-photo-watercolor-pink-heart.jpg); 
+  background-image: url(https://st3.depositphotos.com/7335562/15941/i/600/depositphotos_159416536-stock-photo-watercolor-pink-heart.jpg);
   /* background-image: url(https://t4.ftcdn.net/jpg/02/45/12/41/360_F_245124152_d7WKC71yhJgu0pxoQj2c1PoN6uJ3TAhx.jpg); */
   border-radius: 50%;
   display: none;
-  
 }
 #invisible:hover {
   transform: none;
   border-radius: 50%;
-  
 }
 
 /* page3,services........................................................... */
@@ -220,7 +216,6 @@ a:hover {
   width: 100%;
   display: flex;
   flex-direction: column;
-
 }
 .page3 {
   background-color: rgb(255, 255, 255);
@@ -235,16 +230,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 7px;
-
 }
-
 
 .register {
   height: 35%;
   width: 95%;
   background-color: rgb(255, 255, 255);
   margin-bottom: 5px;
-  
 }
 
 .card_details {
@@ -282,7 +274,6 @@ a:hover {
   color: white;
 }
 
-
 .delivery {
   height: 16%;
   width: 95%;
@@ -312,7 +303,6 @@ form {
   width: 100%;
   background-color: #fdfbf3;
   margin: 10px;
-  
 }
 .page4_pic {
   background-color: #157380;
@@ -322,7 +312,6 @@ form {
   height: 300px;
   width: 300px;
   margin: 10px;
-  
 }
 #fairy {
   background-image: url(https://media.istockphoto.com/id/1152658696/photo/business-owner-with-her-staff-working-at-a-restaurant.jpg?s=612x612&w=0&k=20&c=C1KLG5JEFBqGMFWapWWyYHlhNj7p0qqErP6ovV-5ap0=);
@@ -340,6 +329,44 @@ form {
   margin: 10px;
 }
 
+/* page5,contact................................................. */
+.page5_background {
+  height: 100%;
+  background-image: url(https://wallpapercave.com/dwp2x/wp7367663.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.links_page5 {
+  background-image: none;
+}
+.contact_card {
+  background-color: none;
+  border: 5px white solid;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  justify-items: center;
+  padding: 2px;
+}
+.contact {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: top;
+  justify-content: space-around;
+  justify-items: center;
+}
+.page5_head {
+  color: #54a6b1;
+  text-shadow: 2px 2px 2px #000000;
+}
 
 /* css breakpoints */
 
@@ -353,9 +380,9 @@ form {
   .business_description {
     font-size: 1.5em;
   }
-   /* page2,home................................................... */
-   /* page3,services........................................................... */
-   /* page4,about.............................................. */
+  /* page2,home................................................... */
+  /* page3,services........................................................... */
+  /* page4,about.............................................. */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -451,12 +478,11 @@ form {
   .product_description {
     font-size: 1.5em;
   }
- /* page3,services........................................................... */
+  /* page3,services........................................................... */
 
   .card_details {
     font-size: 1.7em;
     background-color: rgb(252, 246, 239);
-    
   }
 
   .register {
@@ -473,6 +499,14 @@ form {
   .page4_card {
     max-width: 80%;
     font-size: 2em;
+  }
+  /* page5,contact................................................. */
+  .contact_card {
+    height: 300px;
+    width: 300px;
+    padding: 36px;
+    margin: 40px;
+    font-size: 1.2em;
   }
 }
 
@@ -517,11 +551,11 @@ form {
 
   /* page2,home................................................... */
 
- .page2_hedding {
-     position: absolute;
-     left: 50px;
-     top: -20px;
- }
+  .page2_hedding {
+    position: absolute;
+    left: 50px;
+    top: -20px;
+  }
 
   #invisible {
     display: none;
@@ -577,34 +611,30 @@ form {
   .grid_big {
     font-size: 0.5em;
     display: grid;
-    grid-template-rows: 25% 25% 25% 25% ;
+    grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns: 25% 25% 25% 25%;
-    
-    
   }
   .card_image {
     display: none;
-    
-    
-  } 
+  }
   .card_details {
-     height: auto;
-    width: auto; 
-     background-color: #ecf6f8; 
+    height: auto;
+    width: auto;
+    background-color: #ecf6f8;
     grid-area: 2/2/5/3;
   }
 
   .register {
     height: auto;
     width: auto;
-    background-color: #f8dae4; 
+    background-color: #f8dae4;
     grid-area: 1/1/3/2;
   }
 
   .delivery {
     height: auto;
     width: auto;
-     background-color: #ecf8f5; 
+    background-color: #ecf8f5;
     grid-area: 3/3/4/4;
   }
 
@@ -617,7 +647,7 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
+
   #big1 {
     grid-area: 1/3/3/5;
     background-image: url(https://media.istockphoto.com/id/1247661628/vector/cooking-girl.jpg?s=612x612&w=0&k=20&c=HLIIwmLoQ6cqjqDb2V0N3_nU_eCsLSKGqESjOYGxAqo=);
@@ -627,14 +657,14 @@ form {
     grid-area: 4/3/5/5;
     background-image: url(https://t3.ftcdn.net/jpg/04/98/88/88/360_F_498888820_SwV5fIv8XMcAFLfZghofHrWgoj4JNMjw.jpg);
   }
-  
+
   #big3 {
     grid-area: 3/1/5/2;
     background-image: url(https://static.vecteezy.com/system/resources/previews/004/542/032/original/young-woman-sitting-on-floor-working-with-laptop-cartoon-style-illustration-isolated-on-white-background-vector.jpg);
   }
 
   /* page4,about.............................................. */
-  
+
   .page4_main {
     display: flex;
     flex-direction: row;
@@ -645,11 +675,10 @@ form {
     width: 100%;
   }
   .page4_card {
-    font-size: 1.2em; 
+    font-size: 1.2em;
     height: 100%;
     width: 33%;
-    background-color: #f8f5f0;  
-    
+    background-color: #f8f5f0;
   }
   .page4_pic {
     height: 150px;
@@ -657,6 +686,18 @@ form {
   }
   .video_set {
     display: none;
+  }
+  /* page5,contact................................................. */
+  .page5_background {
+    background-image: url(https://wallpapers.com/images/featured/cupcake-reh611tgr2oofhu3.jpg);
+  }
+
+  .contact_card {
+    height: 220px;
+    width: 350px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 1.2em;
   }
 }
 
@@ -680,12 +721,17 @@ form {
   /* page3,services........................................................... */
   /* page4,about.............................................. */
   .page4_card {
-    font-size: 1.5em;   
-    
+    font-size: 1.5em;
   }
   .page4_pic {
     height: 200px;
     width: 200px;
   }
-
+  /* page5,contact................................................. */
+  .contact_card {
+    width: 450px;
+    height: 300px;
+    padding: 40px;
+    font-size: 1.5em;
+  }
 }
